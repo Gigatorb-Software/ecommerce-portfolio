@@ -46,8 +46,7 @@ export default function ProductCard() {
     <div className="bg-white container">
       <div className="mx-auto max-w-2xl px-4 py-6 sm:px-6 sm:py-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-          Customers also purchased
-        </h2>
+        Top Categories to choose from         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
@@ -71,7 +70,9 @@ export default function ProductCard() {
                 </div>
                 <p className="text-sm font-medium text-gray-900">
                   {product.price}
+                
                 </p>
+              
               </div>
             </div>
           ))}

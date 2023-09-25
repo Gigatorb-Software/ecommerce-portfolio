@@ -12,21 +12,20 @@ const HeroSection = () => {
             <div className="flex flex-col justify-center col-span-1 text-center lg:text-start">
               <div className="flex items-center justify-center mb-4 lg:justify-normal">
                 <h4 className="ml-2 text-sm font-bold tracking-widest text-primary uppercase">
-                  Explore the Latest Tailwind Template
+                  Explore the Ecommerce Store
                 </h4>
               </div>
               <h1 className="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
-                Elevate your website with Motion
+                Lowest price Best quality Shipping.
               </h1>
-              <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900">
-                Say goodbye to endless hours spent on building templates from
-                scratch.
+              <p className="mb-6   text-sm font-medium text-base font-normal leading-7 lg:w-3/4 text-grey-900">
+              we have stringent quality checks and ensure that we onboard only high-quality suppliers.
               </p>
               <div className="flex flex-col items-center gap-4 lg:flex-row">
-                <button className="flex items-center py-4 text-sm font-bold text-white px-7 bg-purple-blue-500 hover:bg-purple-blue-600 focus:ring-4 focus:ring-purple-blue-100 transition duration-300 rounded-xl">
-                  Get started now
+                <button className="flex items-center py-3 text-sm font-bold text-white px-7 bg-purple-blue-500 hover:bg-sky-400 focus:ring-4 focus:ring-purple-blue-100 transition duration-300 rounded-xl">
+                  Order Now
                 </button>
-                <button className="flex items-center py-4 text-sm font-medium px-7 text-dark-grey-700 hover:text-dark-grey-900 transition duration-300 rounded-2xl">
+                <button className="flex items-center py-4 text-sm font-medium px-7 text-dark-grey-700 hover:bg-blue-500 transition duration-300 rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
