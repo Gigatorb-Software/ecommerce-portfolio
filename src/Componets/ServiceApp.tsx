@@ -1,4 +1,3 @@
-// import ecommercephoto from "/Users/devme/ecommerce-app/src/Images/ecommercephoto.png";
 const ServiceApp = () => {
   return (
     <section className="py-10 leading-6 text-blue-900 sm:py-16 lg:py-24">

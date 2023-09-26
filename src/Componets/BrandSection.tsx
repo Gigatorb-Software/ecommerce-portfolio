@@ -1,4 +1,3 @@
-import earphoneimage from '/Users/devme/ecommerce-app/src/Images/earphoneimage.jpg'
 const BrandSection = () => {
   return (
     <>
@@ -11,8 +10,9 @@ const BrandSection = () => {
                 <span className="ml-2 text-xs uppercase">PRIME</span>
               </div>
               <p className="mt-3 font-sans  text-sm font-medium text-base tracking-normal">
-              Best headphone & low price P47 Foldable/Sports/Office/ Gaming Wireless Headphone with Mic Bluetooth Headset
-          </p>
+                Best headphone & low price P47 Foldable/Sports/Office/ Gaming
+                Wireless Headphone with Mic Bluetooth Headset
+              </p>
               <div className="flex flex-col md:flex-row md:items-end">
                 <p className="mt-6 text-4xl font-black">
                   $70<sup className="align-super text-sm"></sup>
@@ -31,7 +31,7 @@ const BrandSection = () => {
             <div className="mx-auto flex items-center px-5 pt-1 md:p-8">
               <img
                 className="block w-96 max-w-full rounded-md shadow-lg "
-                src={earphoneimage}
+                src={"/earphoneimage.jpg"}
                 alt="Shop image"
               />
             </div>

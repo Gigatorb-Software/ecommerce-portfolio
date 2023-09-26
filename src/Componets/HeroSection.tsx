@@ -1,4 +1,3 @@
-import heroimage from "/Users/devme/ecommerce-app/src/Images/heroimage.jpg";
 const HeroSection = () => {
   return (
     <div>
@@ -19,7 +18,8 @@ const HeroSection = () => {
                 Lowest price Best quality Shipping.
               </h1>
               <p className="mb-6   text-sm font-medium text-base font-normal leading-7 lg:w-3/4 text-grey-900">
-              we have stringent quality checks and ensure that we onboard only high-quality suppliers.
+                we have stringent quality checks and ensure that we onboard only
+                high-quality suppliers.
               </p>
               <div className="flex flex-col items-center gap-4 lg:flex-row">
                 <button className="flex items-center py-3 text-sm font-bold text-white px-7 bg-purple-blue-500 hover:bg-sky-400 focus:ring-4 focus:ring-purple-blue-100 transition duration-300 rounded-xl">
@@ -43,7 +43,11 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="items-center justify-end hidden col-span-1 md:flex">
-              <img className="w-auto rounded-md" src={heroimage} alt="header image" />
+              <img
+                className="w-auto rounded-md"
+                src={"/heroimage.jpg"}
+                alt="header image"
+              />
             </div>
           </div>
         </div>
