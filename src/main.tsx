@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Header />
-         <App />
-         <Footer/>
+      <App />
+  
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
-

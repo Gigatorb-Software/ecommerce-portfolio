@@ -40,7 +40,7 @@ const products = [
       color: "Black",
     },
     {
-        id: 4,
+        id: 5,
         name: "Basic Tee",
         href: "#",
         imageSrc:
@@ -50,7 +50,7 @@ const products = [
         color: "Black",
       },
       {
-        id: 4,
+        id: 6,
         name: "Basic Tee",
         href: "#",
         imageSrc:
@@ -60,7 +60,7 @@ const products = [
         color: "Black",
       },
       {
-        id: 4,
+        id: 7,
         name: "Basic Tee",
         href: "#",
         imageSrc:
@@ -70,7 +70,7 @@ const products = [
         color: "Black",
       },
       {
-        id: 4,
+        id: 8,
         name: "Basic Tee",
         href: "#",
         imageSrc:

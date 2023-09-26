@@ -1,5 +1,5 @@
 
-const Womens = () => {
+const Login = () => {
   return (
     <div>
       
@@ -7,4 +7,4 @@ const Womens = () => {
   )
 }
 
-export default Womens
+export default Login

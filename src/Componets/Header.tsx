@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="bg-amber-200 w-auto">
+    <div className="bg-amber-200 ">
       <div className="border py-3 px-6">
         <div className="flex justify-between">
           <div className="flex items-center">
@@ -94,8 +94,8 @@ const Header = () => {
               </div>
               <span className="text-sm font-medium">Cart</span>
             </div>
-            <div className="ml-2 flex cursor-pointer items-center gap-x-1 rounded-md border py-2 px-4 bg-purple-blue-500 hover:bg-blue-500">
-              <span className="text-sm font-medium 	">Sign in</span>
+            <div className="ml-2 flex cursor-pointer items-center gap-x-1 rounded-md border py-2 px-3 bg-cyan-500 hover:bg-cyan-600 ">
+            <a className="text-sm font-medium" href="/signIn">Sign In</a>
             </div>
           </div>
         </div>
@@ -153,10 +153,9 @@ const Header = () => {
               Abouts
             </a>
           </div>
-
-          <button className="cursor-pointer rounded-sm py-1 px-2 text-sm font-medium hover:bg-gray-100">
-            Become a Seller
-          </button>
+            <div className="ml-2 flex cursor-pointer items-center gap-x-1 rounded-md border py-2 px-3 bg-cyan-500 hover:bg-cyan-600 ">
+            <a className="text-sm font-medium" href="/signUp">Sign Up</a>
+          </div>
         </div>
       </div>
     </div>
